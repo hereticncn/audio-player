@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="7.jpg" rel="icon">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="card">
+                <img class="cover" width="250px" height="250px" src="" alt="cover">
+            </div>
+            <div class="player">
+                <div class=card__content>
+                    <h1 class="artist"></h1>
+                    <h1 class="song"></h1>
+                </div>
+                <div class="time">
+                    <p class ='song__timer'>00:00</p>
+                    <div class="progress">
+                        <div class="black__progress"></div>
+                    </div>
+                    <p class="song__time">00:00</p>
+                </div>
+                
+                <div class="upravlenie">
+                    <button class="prev"><img width="20px" height="20px" src="next.svg"></button>
+                    <div class="btn__player">
+                        <button class="active" id="play"><img class="img__play" width="30px" height="30px" src="play.svg"></button>
+                    </div>
+                    <button class="next"><img width="20px" height="20px" src="next.svg"></button>
+                </div>        
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
